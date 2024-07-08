@@ -1,0 +1,163 @@
+body{
+    background-color: white;
+}
+
+.enDis{
+ background-color: rgb(2, 2, 2,0.3);
+ width: 42%;
+ height: 48%;
+ margin-left: 400px;
+ margin-top:93px;
+ position: relative;
+ padding-top: 40px;
+}
+
+.koltuklar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.koltuk{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 5px;
+   
+}
+
+.koltuk:nth-child(2){
+    margin-right: 40px;
+}
+
+.koltuk:nth-child(7){
+    margin-right: 40px;
+}
+
+
+.bilgilendirme{
+    background-color: rgb(14, 13, 13,0.5);
+    width: 50%;
+    height: 50px;
+    margin-left: 350px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.filmSecimi{
+    background-color: white;
+    width:500px ;
+    height:40px ;
+    margin-left: 460px;
+    margin-top: 30px;
+    background-color: rgb(242, 233, 233);
+    border-radius: 50px;
+}
+
+.sahne{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 200px;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.sahne li{
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.koltuk:hover{
+     background-color: red;
+    transition: 0.5s;
+}
+
+.filmSecimi ul{
+    list-style-type: none;
+}
+
+.filmSecimi ul li{
+    margin-left: 38px;
+    font-weight: bold;
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+.filmSecimi ul li:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+
+}
+
+.bosKoltuk{
+    background-color: white;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.doluKoltuk{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.seciliKoltuk{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.bilgilendirme ul li{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.bilgilendirme ul li:nth-child(1){
+    display: inline-block;
+    margin-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bilgilendirme ul li:nth-child(2){
+    display: inline-block;
+    margin-left: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bilgilendirme ul li:nth-child(3){
+    display: inline-block;
+    margin-left: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.text{
+    margin-left: 600px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.text span{
+   font-weight: 900;
+}
